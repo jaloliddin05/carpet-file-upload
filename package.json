@@ -1,0 +1,29 @@
+{
+  "name": "carpet-file-upload",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "John Doe gop stop",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "compress-images": "^2.0.5",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "getter-fileupload-client": "^1.0.2",
+    "gifsicle": "^5.2.1",
+    "pngquant-bin": "^6.0.1",
+    "sharp": "^0.31.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
